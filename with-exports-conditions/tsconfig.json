@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esnext",
+    "target": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "moduleResolution": "bundler",
+    "customConditions": ["source"]
+  },
+  "include": ["packages/**/*.ts", "packages/**/*.tsx"]
+}

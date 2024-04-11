@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esnext",
+    "target": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "moduleResolution": "bundler",
+    "customConditions": ["source"],
+    "paths": {
+      "@test/lib": ["packages/lib/src"],
+      "@test/lib/*": ["packages/lib/src/*"]
+    }
+  },
+  "include": ["packages/**/*.ts"]
+}
